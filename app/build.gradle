@@ -1,0 +1,16 @@
+plugins {
+    id "com.android.application"
+}
+
+android {
+    namespace "com.kizakir.pikspot"
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.kizakir.pikspot"
+        minSdk 23
+        targetSdk 35
+        versionCode 11
+        versionName "1.1"
+    }
+}

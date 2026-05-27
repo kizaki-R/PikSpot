@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PikSpot</string>
+    <string name="app_subtitle">標記你的探索紀錄</string>
+    <string name="credit_text">Crafted by Kizaki-R</string>
+    <string name="setup_title">設定</string>
+    <string name="open_browser_settings">設定為預設瀏覽器</string>
+    <string name="open_maps_settings">設定 Google 地圖連結選項</string>
+    <string name="browser_settings_hint">將預設瀏覽器設為本工具。一般網址會自動轉交 Chrome，需要擷取座標時則會先由本工具處理。</string>
+    <string name="maps_settings_hint">將 Google 地圖的連結開啟方式改為在瀏覽器中開啟，避免 Google 地圖直接搶走遊戲送出的座標連結。</string>
+    <string name="latest_coordinate">最近擷取座標</string>
+    <string name="coordinate_history">歷史紀錄</string>
+    <string name="history_hint">短按紀錄即可複製座標。\n\n長按 0.5 秒即可釘選/取消釘選。\n\n右側圖示可分享或刪除該筆紀錄。\n\n歷史紀錄最多保留 99 筆。</string>
+    <string name="clear_history">一鍵清空</string>
+    <string name="confirm_clear_history">確定要清空所有歷史紀錄嗎？此操作無法復原。</string>
+    <string name="delete_history_item">刪除</string>
+    <string name="confirm_delete_history">確定要刪除這筆歷史紀錄嗎？</string>
+    <string name="share_coordinate">分享座標</string>
+    <string name="pinned_history_prefix">已釘選</string>
+    <string name="history_pinned">已釘選這筆座標</string>
+    <string name="history_unpinned">已取消釘選</string>
+    <string name="history_deleted">已刪除這筆紀錄</string>
+    <string name="history_cleared">歷史紀錄已清空</string>
+    <string name="no_history">尚無歷史紀錄</string>
+    <string name="copy_coordinate">複製座標</string>
+    <string name="copy_raw">複製原始資料</string>
+    <string name="raw_data">原始資料</string>
+    <string name="raw_data_copied">原始資料已複製</string>
+    <string name="enable_coordinate_copy">啟用座標擷取</string>
+    <string name="copy_mode_hint">開啟後，含座標的連結會先由本工具擷取並複製座標；未含座標的網址則由 Chrome 開啟。\n\n關閉後，所有連結皆會直接交由 Chrome 開啟。</string>
+    <string name="no_coordinate">尚未接收到座標</string>
+    <string name="coordinate_copied">座標已複製</string>
+    <string name="nothing_to_copy">沒有內容可以複製</string>
+    <string name="cancel_dialog">取消</string>
+    <string name="close_dialog">知道了</string>
+</resources>
