@@ -4,6 +4,12 @@
 
 PikSpot 是一個 Android 小工具，可接收遊戲開啟 Google 地圖時送出的座標連結，擷取座標並複製到剪貼簿。
 
+## 下載
+
+最新版本請至 GitHub Releases 下載：
+
+[PikSpot V1.1](https://github.com/kizaki-R/PikSpot/releases/tag/v1.1)
+
 ## 功能
 
 - 擷取 Google Maps 座標連結
@@ -16,11 +22,18 @@ PikSpot 是一個 Android 小工具，可接收遊戲開啟 Google 地圖時送�
 
 ## 使用方式
 
-安裝後請依 App 內設定指引：
+1. 安裝 PikSpot APK。
+2. 將 PikSpot 設定為預設瀏覽器。
+3. 將 Google 地圖連結設定為由瀏覽器開啟。
+4. 開啟 PikSpot 內的「啟用座標擷取」。
+5. 在遊戲內選擇以地圖開啟座標連結，PikSpot 會自動複製座標並返回遊戲。
 
-1. 將 PikSpot 設定為預設瀏覽器。
-2. 將 Google 地圖連結選項改為在瀏覽器中開啟。
-3. 開啟「啟用座標擷取」。
+## V1.1 更新
+
+- 正式版發布，不再標示 Beta。
+- 新增透明攔截流程：從遊戲內選擇以地圖開啟時，PikSpot 會擷取座標、複製到剪貼簿，並立即返回原 App。
+- 一般網址仍會自動轉交 Chrome。
+- 專案名稱統一為 PikSpot。
 
 ## 注意
 
